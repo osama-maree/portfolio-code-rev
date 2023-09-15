@@ -7,6 +7,7 @@ toggleButton.onclick = function () {
   toggleButton.classList.toggle("active");
   blur.classList.toggle("blur");
 };
+
 toggle[0].onclick = function () {
   navList.classList.toggle("showList");
   toggleButton.classList.toggle("active");
